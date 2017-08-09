@@ -18,7 +18,7 @@ def leancloudAppKey = "f8s6xeebxw1qbqupgh8rjtuqb2nk1xfighsnwfl0zi71hcul"
 def appDownloadUrl = "http://fir.im/sky31radio"
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.linroid.sky31radio"
