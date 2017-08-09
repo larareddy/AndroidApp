@@ -16,7 +16,7 @@ import rx.Observable;
 /**
  * Created by linroid on 1/14/15.
  */
-public interface AiService {
+public interface ApiService {
     @GET("/program")
     Observable<Pagination<Program>> listPrograms(@Query("page") int page, @QueryMap Map<String, String> params);
     @GET("/album")
